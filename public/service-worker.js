@@ -11,7 +11,7 @@ const FILES_TO_CACHE = [
 ];
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
-
+// from activity 14
 self.addEventListener(`install`, event => {
     event.waitUntil(
         caches
